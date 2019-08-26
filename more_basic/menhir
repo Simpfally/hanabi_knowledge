@@ -1,0 +1,1 @@
+src/Parser.mly --dump --explain Makefile

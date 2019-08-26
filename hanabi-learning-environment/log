@@ -1,0 +1,1898 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+[{'color': 'W', 'rank': 1}, {'color': 'B', 'rank': 4}, {'color': 'Y', 'rank': 0}, {'color': 'Y', 'rank': 3}, {'color': 'Y', 'rank': 0}]
+[{'color': 'G', 'rank': 3}, {'color': 'Y', 'rank': 1}, {'color': 'Y', 'rank': 2}, {'color': 'R', 'rank': 3}, {'color': 'W', 'rank': 1}]
+~~~~
+1 doing {'target_offset': 1, 'rank': 3, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 3}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+{'Y': 0, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+0 doing {'target_offset': 1, 'rank': 0, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 3}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+{'Y': 0, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+1 doing {'card_index': 0, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 3}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+new_card: {'color': 'W', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+0 doing {'card_index': 1, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'W', 'rank': 1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+new_card: {'color': 'B', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+1 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'W', 'rank': 1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+0 doing {'card_index': 0, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+> {'color': 'B', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+new_card: {'color': 'B', 'rank': 1}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+1 doing {'card_index': 0, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+> {'color': 'B', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+new_card: {'color': 'W', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+0 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+> {'color': 'B', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 0}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+1 doing {'card_index': 0, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+> {'color': 'B', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 0}
+new_card: {'color': 'R', 'rank': 0}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+0 doing {'target_offset': 1, 'rank': 0, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+> {'color': 'B', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 0}
+{'Y': 1, 'B': 0, 'R': 0, 'W': 0, 'G': 0}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+> {'color': 'B', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'R', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 1, 'W': 0, 'G': 0}
+~~~~
+0 doing {'card_index': 3, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'B', 'rank': 0}
+{'Y': 1, 'B': 0, 'R': 1, 'W': 0, 'G': 0}
+~~~~
+1 doing {'target_offset': 1, 'rank': 0, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+{'Y': 1, 'B': 0, 'R': 1, 'W': 0, 'G': 0}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'G', 'rank': 0}
+{'Y': 1, 'B': 1, 'R': 1, 'W': 0, 'G': 0}
+~~~~
+1 doing {'target_offset': 1, 'rank': 0, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+{'Y': 1, 'B': 1, 'R': 1, 'W': 0, 'G': 0}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'G', 'rank': 3}
+{'Y': 1, 'B': 1, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+1 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'Y', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+{'Y': 1, 'B': 1, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+0 doing {'card_index': 1, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'Y', 'rank': 4}
+{'Y': 2, 'B': 1, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+1 doing {'target_offset': 1, 'rank': 2, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'Y', 'rank': 2}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+{'Y': 2, 'B': 1, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+0 doing {'card_index': 0, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'R', 'rank': 0}
+{'Y': 3, 'B': 1, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+1 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+{'Y': 3, 'B': 1, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+0 doing {'card_index': 1, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'B', 'rank': 3}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+1 doing {'card_index': 2, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+new_card: {'color': 'B', 'rank': 3}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+0 doing {'card_index': 1, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+new_card: {'color': 'G', 'rank': 1}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+1 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 1}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 1}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 2}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'W', 'rank': 2}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+new_card: {'color': 'Y', 'rank': 2}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 2}
+~~~~
+1 doing {'card_index': 2, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 2}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+new_card: {'color': 'B', 'rank': 0}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 2}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 4}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+new_card: {'color': 'R', 'rank': 4}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 2}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 4}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 2}
+new_card: {'color': 'G', 'rank': 2}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 2}
+~~~~
+0 doing {'target_offset': 1, 'rank': 2, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 4}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 2}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 2}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 4}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'R', 'rank': 2}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 2}
+new_card: {'color': 'G', 'rank': 0}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+new_card: {'color': 'B', 'rank': 2}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 2, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'B', 'rank': 2}
+{'Y': 3, 'B': 2, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 4}
+new_card: {'color': 'G', 'rank': 4}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 4}
+new_card: {'color': 'Y', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'color': 'G', 'target_offset': 1, 'action_type': 'REVEAL_COLOR'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 4}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'G', 'rank': 4}
+new_card: {'color': 'R', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 1}
+new_card: {'color': 'Y', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'color': 'B', 'target_offset': 1, 'action_type': 'REVEAL_COLOR'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+new_card: {'color': 'W', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'color': 'B', 'target_offset': 1, 'action_type': 'REVEAL_COLOR'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 1}
+new_card: {'color': 'R', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 1, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+new_card: {'color': 'Y', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 2, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 2, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 1}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 2, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 1, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+new_card: {'color': 'W', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 2, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 2, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'R', 'rank': 2}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+{'Y': 3, 'B': 3, 'R': 2, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 1, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'Y', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'R', 'rank': 1}
+new_card: {'color': 'R', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'card_index': 1, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'R', 'rank': 1}
+new_card: {'color': 'B', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'G', 'rank': 2}
+new_card: {'color': 'G', 'rank': 2}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 2, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'G', 'rank': 2}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 0}
+new_card: {'color': 'W', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 0, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+new_card: {'color': 'B', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 3, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'color': 'G', 'target_offset': 1, 'action_type': 'REVEAL_COLOR'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 3, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'target_offset': 1, 'rank': 3, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 1, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'B', 'rank': 1}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 0}
+new_card: {'color': 'W', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 0, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 4, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+new_card: {'color': 'W', 'rank': 4}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 4, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'color': 'B', 'target_offset': 1, 'action_type': 'REVEAL_COLOR'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 4, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'B', 'rank': 3}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 1, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+new_card: {'color': 'R', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'target_offset': 1, 'rank': 4, 'action_type': 'REVEAL_RANK'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'Y', 'rank': 3}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 1, 'action_type': 'DISCARD'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'G', 'rank': 0}
+new_card: {'color': 'G', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+0 doing {'color': 'W', 'target_offset': 1, 'action_type': 'REVEAL_COLOR'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 3}
+> {'color': 'W', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'G', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+~~~~
+1 doing {'card_index': 1, 'action_type': 'PLAY'}
+1 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'G', 'rank': 3}
+> {'color': 'R', 'rank': 0}
+> {'color': 'B', 'rank': 3}
+> {'color': 'R', 'rank': 3}
+> {'color': 'B', 'rank': 0}
+2 player
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': None, 'rank': -1}
+> {'color': 'B', 'rank': 4}
+> {'color': 'W', 'rank': 4}
+> {'color': 'R', 'rank': 0}
+> {'color': 'G', 'rank': 0}
+> {'color': 'W', 'rank': 0}
+new_card: {'color': 'W', 'rank': 0}
+{'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+Score= 12 {'Y': 3, 'B': 3, 'R': 3, 'W': 0, 'G': 3}
+4:1, 3:4, 1:0, 1:3, 1:0
+2:3, 1:1, 1:2, 0:3, 4:1
+RANKCLUE 3
+RANKCLUE 0
+PLAY 4 4:2
+DISCARD 3 3:2
+RANKCLUE 1
+PLAY 4 3:1
+DISCARD 4 4:2
+RANKCLUE 1
+DISCARD 4 0:0
+RANKCLUE 0
+PLAY 0 0:2
+DISCARD 1 3:0
+RANKCLUE 0
+PLAY 0 2:0
+RANKCLUE 0
+PLAY 0 2:3
+RANKCLUE 1
+PLAY 3 1:4
+RANKCLUE 2
+PLAY 4 0:0
+RANKCLUE 1
+PLAY 3 3:3
+DISCARD 2 3:3
+DISCARD 3 2:1
+RANKCLUE 1
+PLAY 0 1:2
+DISCARD 2 3:0
+DISCARD 0 0:4
+DISCARD 0 2:2
+RANKCLUE 2
+PLAY 0 0:2
+DISCARD 0 2:0
+DISCARD 0 3:2
+RANKCLUE 2
+PLAY 0 2:4
+DISCARD 0 1:0
+COLORCLUE 2
+DISCARD 0 0:3
+DISCARD 0 1:1
+COLORCLUE 3
+DISCARD 0 4:3
+COLORCLUE 3
+DISCARD 0 0:1
+RANKCLUE 1
+PLAY 0 1:3
+RANKCLUE 2
+DISCARD 3 4:3
+RANKCLUE 2
+PLAY 3 0:1
+PLAY 3 3:0
+DISCARD 0 2:2
+RANKCLUE 2
+DISCARD 0 4:0
+RANKCLUE 0
+DISCARD 0 3:1
+RANKCLUE 3
+COLORCLUE 2
+RANKCLUE 3
+RANKCLUE 3
+RANKCLUE 1
+DISCARD 0 4:0
+RANKCLUE 0
+DISCARD 0 4:4
+RANKCLUE 4
+COLORCLUE 3
+RANKCLUE 4
+DISCARD 3 0:0
+RANKCLUE 4
+DISCARD 3 2:0
+COLORCLUE 4
+PLAY 3 4:0
+

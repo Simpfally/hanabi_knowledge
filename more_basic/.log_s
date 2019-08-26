@@ -1,0 +1,6 @@
+File "src/Parser.mly", line 21, characters 0-10:
+Warning: symbol empty_rule is unreachable from any of the start symbol(s).
+File "src/Parser.mly", line 21, characters 0-10:
+Warning: symbol empty_rule is unreachable from any of the start symbol(s).
+File "src/Parser.mly", line 21, characters 0-10:
+Warning: symbol empty_rule is unreachable from any of the start symbol(s).

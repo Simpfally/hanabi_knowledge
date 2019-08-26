@@ -1,0 +1,206 @@
+record: INTEGER COLON INTEGER COMMA INTEGER COLON INTEGER COMMA RANKCLUE
+##
+## Ends in an error in state: 33.
+##
+## separated_nonempty_list(COMMA,card) -> card COMMA . separated_nonempty_list(COMMA,card) [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## card COMMA
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER COMMA INTEGER COLON INTEGER RANKCLUE
+##
+## Ends in an error in state: 32.
+##
+## separated_nonempty_list(COMMA,card) -> card . [ NEWLINE ]
+## separated_nonempty_list(COMMA,card) -> card . COMMA separated_nonempty_list(COMMA,card) [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## card
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER COMMA RANKCLUE
+##
+## Ends in an error in state: 29.
+##
+## my_separated_nonempty_list(COMMA,card) -> card COMMA . loption(separated_nonempty_list(COMMA,card)) [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## card COMMA
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE COLORCLUE RANKCLUE
+##
+## Ends in an error in state: 16.
+##
+## step -> COLORCLUE . INTEGER [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## COLORCLUE
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE DISCARD INTEGER RANKCLUE
+##
+## Ends in an error in state: 14.
+##
+## step -> DISCARD INTEGER . card [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## DISCARD INTEGER
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE DISCARD RANKCLUE
+##
+## Ends in an error in state: 13.
+##
+## step -> DISCARD . INTEGER card [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## DISCARD
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE INTEGER COLON INTEGER NEWLINE NEWLINE
+##
+## Ends in an error in state: 26.
+##
+## list(hand) -> hand . list(hand) [ RANKCLUE PLAY EOF DISCARD COLORCLUE ]
+##
+## The known suffix of the stack is as follows:
+## hand
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE NEWLINE
+##
+## Ends in an error in state: 24.
+##
+## my_nonempty_list(hand) -> hand . list(hand) [ RANKCLUE PLAY EOF DISCARD COLORCLUE ]
+##
+## The known suffix of the stack is as follows:
+## hand
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE PLAY INTEGER RANKCLUE
+##
+## Ends in an error in state: 11.
+##
+## step -> PLAY INTEGER . card [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## PLAY INTEGER
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE PLAY RANKCLUE
+##
+## Ends in an error in state: 10.
+##
+## step -> PLAY . INTEGER card [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## PLAY
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE RANKCLUE INTEGER NEWLINE NEWLINE
+##
+## Ends in an error in state: 18.
+##
+## list(stepa) -> stepa . list(stepa) [ EOF ]
+##
+## The known suffix of the stack is as follows:
+## stepa
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE RANKCLUE INTEGER RANKCLUE
+##
+## Ends in an error in state: 19.
+##
+## stepa -> step . NEWLINE [ RANKCLUE PLAY EOF DISCARD COLORCLUE ]
+##
+## The known suffix of the stack is as follows:
+## step
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER NEWLINE RANKCLUE RANKCLUE
+##
+## Ends in an error in state: 8.
+##
+## step -> RANKCLUE . INTEGER [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## RANKCLUE
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON INTEGER RANKCLUE
+##
+## Ends in an error in state: 28.
+##
+## my_separated_nonempty_list(COMMA,card) -> card . [ NEWLINE ]
+## my_separated_nonempty_list(COMMA,card) -> card . COMMA loption(separated_nonempty_list(COMMA,card)) [ NEWLINE ]
+##
+## The known suffix of the stack is as follows:
+## card
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER COLON RANKCLUE
+##
+## Ends in an error in state: 2.
+##
+## card -> INTEGER COLON . INTEGER [ NEWLINE COMMA ]
+##
+## The known suffix of the stack is as follows:
+## INTEGER COLON
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: INTEGER RANKCLUE
+##
+## Ends in an error in state: 1.
+##
+## card -> INTEGER . COLON INTEGER [ NEWLINE COMMA ]
+##
+## The known suffix of the stack is as follows:
+## INTEGER
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+
+record: RANKCLUE
+##
+## Ends in an error in state: 0.
+##
+## record' -> . record [ # ]
+##
+## The known suffix of the stack is as follows:
+##
+##
+
+<YOUR SYNTAX ERROR MESSAGE HERE>
+

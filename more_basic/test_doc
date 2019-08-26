@@ -1,0 +1,7 @@
+1:1,2:2,3:3,4:4,5:5
+1:1,1:2,1:3,1:4,1:5 (* two players *)
+RANKCLUE 1 		(* first player give the clue "rank 1" to second player*)
+COLORCLUE 1 	(* second player give clue "red=1" to first player*)
+PLAY 3 2:1 		(*first player play his 3rd card from the left and get Y1*)
+DISCARD 1 2:3 	(*second player discards his youngest card, gets Y3*)
+DISCARD 1 0:0 	(* last (bad) move, player discard and get no new card*)

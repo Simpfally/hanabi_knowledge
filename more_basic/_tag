@@ -1,0 +1,2 @@
+true: use_menhir, explain, trace
+<src/*>: package(ppx_deriving.std)
